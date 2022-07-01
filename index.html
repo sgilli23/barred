@@ -1,0 +1,82 @@
+<!-- Author: Samantha
+
+Welcome to my assignment that is guaranteed to get you drunk. :)-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The MEGA Bar</title>
+  </head>
+
+  <body>
+    <div>
+      <img
+        src="https://daily.sevenfifty.com/app/uploads/2019/02/SFD_Minimalism_1_Jaguar_Sun_CR_Adam_DelGiudice_2520x1420.jpg"
+        alt="Photograph of a cocktail bar, depicting many colourful concoctions"
+        id="cocktailBar"
+      />
+    </div>
+    <div id="welcomeBar">
+      <h1>🍸🍷🍹🍾🍺 A Mega Pint of... 🍺🍾🍹🍷🍸</h1>
+      <h2>🦩 Where every hour is happy hour... 🦩</h2>
+    </div>
+
+    <div class="pickPoison" style="visibility: visible">
+      <label> Pick your poison from the list below </label>
+      <select id="ingredients-list" style="width: auto"></select>
+      <button type="submit" id="submitIngredient" style="width: auto">
+        Pouring...
+      </button>
+    </div>
+
+    <div class="returnedPoison" style="visibility: hidden; display: contents">
+      <label>Nice one! Now, what would you like a MEGA PINT of?</label>
+      <select id="returnedIngredientsBox" style="width: auto"></select>
+      <button type="submit" id="submitCocktail" style="width: auto">
+        Hit me!
+      </button>
+    </div>
+
+    <div class="searchBar">
+      <label>Already know what you want?</label>
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="Enter cocktail name here!"
+        style="width: 30%"
+      />
+      <button type="submit" id="searchCocktail" style="width: auto">
+        Hit me!
+      </button>
+    </div>
+    <div class="navBtns">
+      <button type="link" id="cab">Call me a cab! 🚕</button>
+      <button type="reload" id="home">Gimme more! 💸</button>
+    </div>
+  </body>
+</html>
+
+<div class="flexBoxes">
+  <div id="sideBarLeft">
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/13/83/tropical-flamingo-cartoon-vector-23981383.jpg"
+      alt="Flamingo and some palm trees."
+      style="position: absolute; right: 0px; top: 350px; width: 30%"
+    />
+  </div>
+  <div id="sideBarRight">
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/13/83/tropical-flamingo-cartoon-vector-23981383.jpg"
+      alt="Flamingo and some palm trees."
+      style="position: absolute; left: 0px; top: 350px; width: 30%"
+    />
+  </div>
+</div>
+
+<script src="script.js"></script>

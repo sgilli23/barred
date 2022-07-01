@@ -1,0 +1,71 @@
+/* Author: Samantha 
+
+This is the styling for my web page. */
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#welcomeBar {
+  display: flex;
+  flex-flow: column;
+  color: rgb(247, 103, 225);
+  background-color: rgb(230, 246, 241);
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#cocktailBar {
+  display: flex;
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  object-position: 50% 70%;
+  opacity: 70%;
+}
+
+.pickPoison {
+  display: flex;
+  flex-flow: column;
+  margin-top: 20px;
+  align-items: center;
+  gap: 15px;
+}
+
+.returnedPoison {
+  flex-flow: column;
+  margin-top: 20px;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchBar {
+  order: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.flexBoxes {
+  display: flex;
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  object-position: 20% 70%;
+  opacity: 30%;
+}
+
+.navBtns {
+  display: flex;
+  flex-flow: colurowmn;
+  gap: 15px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
